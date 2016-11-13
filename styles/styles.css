@@ -29,6 +29,11 @@ input[name="role"]:checked ~ .diagram > img
 	opacity: .2;
 }
 
+input[name="role"]:checked + label
+{
+	text-decoration: underline;
+}
+
 label
 {
 	display: inline-block;
