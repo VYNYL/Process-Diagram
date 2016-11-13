@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>VYNYL Process Diagram</title>
+
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/config.css" />
+
+</head>
+<body>
+
+<!--
+A WORD FROM THE AUTHOR:
+Markup is notably primitive. This allows for stateless interactivity via CSS and HTML checkboxes.
+See `styles/config.css` to configure.
+-->
+
+<input type="checkbox" name="role" id="role-am"/> <label for="role-am">Account Manager / Product Owner</label>
+<input type="checkbox" name="role" id="role-pm"/> <label for="role-pm">Project Manager</label>
+<br>
+<input type="checkbox" name="role" id="role-project-lead"/> <label for="role-project-lead">Project Lead</label>
+<input type="checkbox" name="role" id="role-admin-coordinator"/> <label for="role-admin-coordinator">Admin Coordinator</label>
+<input type="checkbox" name="role" id="role-qa-lead"/> <label for="role-qa-lead">QA Lead</label>
+<br>
+<input type="checkbox" name="role" id="role-qa-personnel"/> <label for="role-qa-personnel">QA Personnel</label>
+<input type="checkbox" name="role" id="role-dev-des"/> <label for="role-dev-des">Developer/Designer</label>
+<input type="checkbox" name="role" id="role-production-heads"/> <label for="role-production-heads">Production Heads</label>
+
+<div class="diagram">
+  <img class="estimation" alt="estimation" src="images/estimation.png" />
+  <img class="contract-signed" alt="contract-signed" src="images/contract-signed.png" />
+  <img class="project-start" alt="project-start" src="images/project-start.png" />
+  <img class="sprint" alt="sprint" src="images/sprint.png" />
+  <img class="client-demo" alt="client-demo" src="images/client-demo.png" />
+  <img class="standups" alt="standups" src="images/standups.png" />
+  <img class="project-end" alt="project-end" src="images/project-end.png" />
+  <img class="scheduling" alt="scheduling" src="images/scheduling.png" />
+  <img class="daily-report" alt="daily-report" src="images/daily-report.png" />
+  <img class="client-report" alt="client-report" src="images/client-report.png" />
+  <img class="project-review" alt="project-review" src="images/project-review.png" />
+  <img class="invoicing" alt="invoicing" src="images/invoicing.png" />
+</div>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body
+{
+	text-align: center;
+	width: 692px;
+	margin: 0 auto;
+}
+
+input[name="role"]
+{
+	display: inline-block;
+	margin-left: 24px;
+	margin-top: 12px;
+}
+
+input[name="role"]:first-child
+{
+	margin-left: 0px;
+}
+
+input[name="role"]:checked ~ .diagram > img
+{
+	opacity: .2;
+}
+
+label
+{
+	display: inline-block;
+	text-transform: capitalize;
+	margin-top: 12px;
+	white-space: nowrap;
+}
+
+.diagram
+{
+	position: relative;
+	margin: 0 auto;
+	background-image: url('../images/diagram-structure.jpg');
+	background-repeat: no-repeat;
+	width: 692px;
+	height: 568px;
+}
+
+.diagram > img 
+{
+	position: absolute;
+	opacity: .8;
+	transition: opacity .2s;
+}
+
+.diagram .estimation
+{
+	left: 24px;
+	top: 71px;
+}
+
+.diagram .contract-signed
+{
+	left: 125px;
+	top: 38px;
+}
+
+.diagram .project-start
+{
+	left: 256px;
+	top: 57px;
+}
+
+.diagram .sprint
+{
+	left: 386px;
+	top: 62px;
+
+}
+
+.diagram .client-demo
+{
+	left: 468px;
+	top: 177px;
+
+}
+
+.diagram .standups
+{
+	left: 285px;
+	top: 202px;
+
+}
+
+.diagram .project-end
+{
+	left: 591px;
+	top: 61px;
+
+}
+
+.diagram .scheduling
+{
+	left: 38px;
+	top: 345px;
+
+}
+
+.diagram .daily-report
+{
+	left: 38px;
+	top: 381px;
+
+}
+
+.diagram .client-report
+{
+	left: 38px;
+	top: 417px;
+
+}
+
+.diagram .project-review
+{
+	left: 38px;
+	top: 453px;
+
+}
+
+.diagram .invoicing
+{
+	left: 38px;
+	top: 487px;
+}

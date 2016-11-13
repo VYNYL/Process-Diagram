@@ -1,0 +1,80 @@
+#role-am:checked ~ .diagram .estimation,
+#role-am:checked ~ .diagram .contract-signed,
+#role-am:checked ~ .diagram .project-start,
+#role-am:checked ~ .diagram .sprint,
+#role-am:checked ~ .diagram .client-demo,
+#role-am:checked ~ .diagram .project-end,
+#role-am:checked ~ .diagram .daily-report,
+#role-am:checked ~ .diagram .client-report,
+#role-am:checked ~ .diagram .project-review,
+#role-am:checked ~ .diagram .invoicing
+{
+	opacity: 1;
+}
+
+#role-pm:checked ~ .diagram .project-start,
+#role-pm:checked ~ .diagram .sprint,
+#role-pm:checked ~ .diagram .client-demo,
+#role-pm:checked ~ .diagram .standups,
+#role-pm:checked ~ .diagram .project-end,
+#role-pm:checked ~ .diagram .scheduling,
+#role-pm:checked ~ .diagram .daily-report,
+#role-pm:checked ~ .diagram .client-report,
+#role-pm:checked ~ .diagram .project-review,
+#role-pm:checked ~ .diagram .invoicing
+{
+	opacity: 1;
+}
+
+#role-project-lead:checked ~ .diagram .estimation,
+#role-project-lead:checked ~ .diagram .project-start,
+#role-project-lead:checked ~ .diagram .sprint,
+#role-project-lead:checked ~ .diagram .client-demo,
+#role-project-lead:checked ~ .diagram .standups,
+#role-project-lead:checked ~ .diagram .project-end
+{
+	opacity: 1;
+}
+
+#role-admin-coordinator:checked ~ .diagram .estimation,
+#role-admin-coordinator:checked ~ .diagram .contract-signed,
+#role-admin-coordinator:checked ~ .diagram .project-end,
+#role-admin-coordinator:checked ~ .diagram .scheduling,
+#role-admin-coordinator:checked ~ .diagram .invoicing
+{
+	opacity: 1;
+}
+
+#role-qa-lead:checked ~ .diagram .project-start,
+#role-qa-lead:checked ~ .diagram .project-end,
+#role-qa-lead:checked ~ .diagram .scheduling
+{
+	opacity: 1;
+}
+
+#role-qa-personnel:checked ~ .diagram .project-start,
+#role-qa-personnel:checked ~ .diagram .sprint,
+#role-qa-personnel:checked ~ .diagram .standups
+{
+	opacity: 1;
+}
+
+#role-dev-des:checked ~ .diagram .project-start,
+#role-dev-des:checked ~ .diagram .sprint,
+#role-dev-des:checked ~ .diagram .standups
+{
+	opacity: 1;
+}
+
+#role-production-heads:checked ~ .diagram .estimation,
+#role-production-heads:checked ~ .diagram .contract-signed,
+#role-production-heads:checked ~ .diagram .project-start,
+#role-production-heads:checked ~ .diagram .sprint,
+#role-production-heads:checked ~ .diagram .client-demo,
+#role-production-heads:checked ~ .diagram .project-end,
+#role-production-heads:checked ~ .diagram .scheduling,
+#role-production-heads:checked ~ .diagram .daily-report,
+#role-production-heads:checked ~ .diagram .project-review
+{
+	opacity: 1;
+}
